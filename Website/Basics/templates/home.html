@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Input Form</title>
+</head>
+<body>
+    <form method="post">
+        {%csrf_token%}
+        <label for="stag">Stag:</label>
+        <input type="number" step="0.001" id="stag" name="stag"><br><br>
+
+        <label for="gender">Gender:</label>
+        <input type="number" step="0.001" id="gender" name="gender"><br><br>
+
+        <label for="age">Age:</label>
+        <input type="number" step="0.001" id="age" name="age"><br><br>
+
+        <label for="industry">Industry:</label>
+        <input type="number" step="0.001" id="industry" name="industry"><br><br>
+
+        <label for="profession">Profession:</label>
+        <input type="number" step="0.001" id="profession" name="profession"><br><br>
+
+        <label for="traffic">Traffic:</label>
+        <input type="number" step="0.001" id="traffic" name="traffic"><br><br>
+
+        <label for="coach">Coach:</label>
+        <input type="number" step="0.001" id="coach" name="coach"><br><br>
+
+        <label for="head_gender">Head Gender:</label>
+        <input type="number" step="0.001" id="head_gender" name="head_gender"><br><br>
+
+        <label for="greywage">Grey Wage:</label>
+        <input type="number" step="0.001" id="greywage" name="greywage"><br><br>
+
+        <label for="way">Way:</label>
+        <input type="number" step="0.001" id="way" name="way"><br><br>
+
+        <label for="extraversion">Extraversion:</label>
+        <input type="number" step="0.001" id="extraversion" name="extraversion"><br><br>
+
+        <label for="independ">Independ:</label>
+        <input type="number" step="0.001" id="independ" name="independ"><br><br>
+
+        <label for="selfcontrol">Self-Control:</label>
+        <input type="number" step="0.001" id="selfcontrol" name="selfcontrol"><br><br>
+
+        <label for="anxiety">Anxiety:</label>
+        <input type="number" step="0.001" id="anxiety" name="anxiety"><br><br>
+
+        <label for="novator">Novator:</label>
+        <input type="number" step="0.001" id="novator" name="novator"><br><br>
+
+        <input type="submit" value="Submit">
+    </form>
+    {{info}}
+</body>
+</html>
